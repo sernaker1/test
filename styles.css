@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 20px;
+    padding: 0 10px;
 
     background-color: #3d8b5a;
     color: white;
@@ -67,7 +67,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
 
-    padding: 0 1rem;   /* side spacing for mobile */
+    padding: 0 3rem;   /* side spacing for mobile */
 }
 
 
@@ -76,9 +76,9 @@ body {
     text-align: left;
 
     max-width: 1000px;
-    width: 100%;          /*  prevents overflow issues */
+    width: 100%;          /*  prevent overflow issues */
 
-    padding: 0 1rem;      /* keeps text off screen edges */
+    padding: 0 1rem;      /* keep text off screen edges */
 
     border-radius: 20px;
     box-sizing: border-box;
@@ -112,7 +112,7 @@ body {
 
 /* Footer */
 .footer {
-    height: 40px;
+    height: 50px;
 
     display: flex;
     justify-content: center;
@@ -120,4 +120,26 @@ body {
 
     background-color: #2f6e48;
     color: white;
+}
+
+
+.definition {
+    font-size: 1.7rem;
+    padding-left: 1.5rem;
+    border-left: 5px solid #3d8b5a;
+    color: #444;
+}
+
+
+a {
+    color: #3d8b5a;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2c6b2f;
 }
