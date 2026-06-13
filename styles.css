@@ -101,12 +101,12 @@ body {
 
 /* Large image */
 .hero-image {
-    height: 300px;
-    object-fit: cover;
     display: block;
     margin: 0 auto;
 
-    max-width: 100%;   /* prevents overflow on small screens */
+    width: 100%;
+    max-width: 600px;   /* optional */
+    height: auto;
 }
 
 
